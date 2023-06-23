@@ -1,1 +1,21 @@
-
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    margin: ;
+}
+.section-1 {
+    background-color: #1F2937;
+}
+.section-2 {
+    background-color: #FFF;
+}
+.section-3 {
+    background-color: #E5E7EB;
+}
+.section-4 {
+    background-color: #FFF;
+}
+.section-5 {
+    background-color: #1F2937;
+}
