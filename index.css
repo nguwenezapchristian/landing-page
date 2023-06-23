@@ -1,21 +1,80 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red */
 }
 body {
     margin: ;
+    padding: ;
+    line-height: 1.5;
 }
+
+/* styles for section 1 */
 .section-1 {
     background-color: #1F2937;
 }
+.section-1 .menu, .sub-menu {
+    display: flex;
+    margin: 0px 100px 0px 100px;
+    justify-content: space-between;
+    padding: 15px 0 50px 0;    
+}
+.menu {
+    margin: 10px 0 25px 0;
+}
+.menu .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul {
+   /* padding-bottom: 0px; */
+   justify-content: center;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 5px;
+}
+.sub-menu .img-container, .web-description {
+    width: 50%;
+}
+.sub-menu .web-description h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.sub-menu .web-description p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sub-menu .sign-btn {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+}
+/* styles for section 2 */
 .section-2 {
     background-color: #FFF;
 }
+/* styles for section 3 */
 .section-3 {
     background-color: #E5E7EB;
 }
+/* styles for section 4 */
 .section-4 {
     background-color: #FFF;
 }
+/* styles for section 5 */
 .section-5 {
     background-color: #1F2937;
 }
