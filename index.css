@@ -2,7 +2,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 body {
     line-height: 1.5;
@@ -19,11 +19,11 @@ body {
 }
 .section-1 .menu {
     padding-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 .section-1 .sub-menu {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .menu .header-logo {
     font-size: 24px;
@@ -79,11 +79,38 @@ li {
 .sub-menu .img-container img {
     height: 100%;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* styles for section 2 */
 .section-2 {
     background-color: #FFF;
+    margin: 0px 100px 0px 100px;
+
+}
+.section-2 .flex-container div {
+    width: 180px;
+}
+.section-2 h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px 0px 30px 0px;
+}
+.section-2 .flex-container img {
+    width: 100%;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.section-2 .flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.section-2 .flex-container p {
+    text-align: center;
+    /* color: ; */
 }
 /* styles for section 3 */
 .section-3 {
