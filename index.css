@@ -2,11 +2,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    /* border: 2px solid red */
+    /* border: 2px solid red; */
 }
 body {
-    margin: ;
-    padding: ;
     line-height: 1.5;
 }
 
@@ -18,10 +16,14 @@ body {
     display: flex;
     margin: 0px 100px 0px 100px;
     justify-content: space-between;
-    padding: 15px 0 50px 0;    
 }
-.menu {
-    margin: 10px 0 25px 0;
+.section-1 .menu {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.section-1 .sub-menu {
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 .menu .header-logo {
     font-size: 24px;
@@ -29,20 +31,26 @@ body {
 }
 ul {
    /* padding-bottom: 0px; */
-   justify-content: center;
+   /* justify-content: center; */
+   margin-bottom: 5px;
 }
 li {
     list-style: none;
     display: inline;
+    
 }
 .menu ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-    padding-left: 5px;
+    padding-left: 15px;
+}
+.menu ul li a:hover {
+    color: #3882F6;
 }
 .sub-menu .img-container, .web-description {
     width: 50%;
+    height: 300px;
 }
 .sub-menu .web-description h1 {
     font-size: 48px;
@@ -52,6 +60,7 @@ li {
 .sub-menu .web-description p {
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 50px;
 }
 .sub-menu .sign-btn {
     background-color: #3882F6;
@@ -60,7 +69,17 @@ li {
     color: #F9FAF8;
     font-size: 18px;
     padding: 5px 20px 5px 20px;
-    margin-top: 5px;
+    margin-top: 35px;
+}
+.sub-menu .sign-btn:hover {
+    border: 1px solid #3882F6;
+    color: #3882F6;
+    background-color: #E5E7EB;
+}
+.sub-menu .img-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
 /* styles for section 2 */
 .section-2 {
