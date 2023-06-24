@@ -128,7 +128,8 @@ li {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    text-align: justify;
+    /* text-align: justify; */
+    padding-left: 100px;
 }
 .section-3 .quote h3 {
     text-align: end;
@@ -138,7 +139,43 @@ li {
 .section-4 {
     background-color: #FFF;
 }
+.section-4 .call-action {
+    margin: 100px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px 100px;
+}
+.section-4 .call-action .call-action-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.section-4 .call-action h1 {
+    color: #F9FAF8;
+}
+.section-4 .call-action p {
+    color: #E5E7EB;
+}
+.section-4 .call-action .call-action-flex button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+}
+.section-4 .call-action .call-action-flex button:hover {
+    border: 2px solid #1F2937;
+    color: #1F2937;
+}
 /* styles for section 5 */
 .section-5 {
     background-color: #1F2937;
+}
+.section-5 .footer-content {
+    margin: 0px 100px;
+    padding: 40px 0;
+}
+.section-5 .footer-content p {
+    color: #E5E7EB;
+    text-align: center;
 }
